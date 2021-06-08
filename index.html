@@ -37,10 +37,10 @@
             </div>
           </nav>
         
-          <ul class="sidenav white-text green accent-2" id="mobile-menu">
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#contact">contact</a></li>
+          <ul class="sidenav green accent-2" id="mobile-menu">
+            <li><a href="#home" class="sidenav-align white-text">home</a></li>
+            <li><a href="#about" class="sidenav-align white-text sidenav-style">about</a></li>
+            <li><a href="#contact" class="sidenav-align white-text">contact</a></li>
           </ul>
     </header>
 
@@ -120,7 +120,10 @@
 
     <script>
         $(document).ready(function(){
-            $('.sidenav').sidenav();
+            $('.sidenav').sidenav({
+                preventScrolling:true,
+                draggable:true
+            });
             $('.parallax').parallax();
             $('.scrollspy').scrollSpy();             
         });

@@ -39,3 +39,13 @@ img{
     height: 200px;
 }
 
+.sidenav-align{
+margin-top: 75px;
+text-align: center;
+}
+
+.sidenav-style{
+font-style: 'Montserrat';
+font-size: 30px;
+}
+    
