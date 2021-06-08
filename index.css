@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight:bolder;
+    font-size: x-large;
+}
+
+p{
+    font-family: 'Montserrat';
+    font-size: small;
+}
+
+a{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+footer{
+    font-family: 'Secular One';
+    font-size: small;
+}
+
+img{
+    padding: 10px;
+    min-height: 300px;
+    min-width: 500px;
+}
+
+.parallax-container{
+    height: 200px;
+}
+
